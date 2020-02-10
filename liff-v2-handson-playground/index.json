@@ -6,7 +6,11 @@
         {
           "title": "Step 1 - 自動で環境構築",
           "text": "step1.md"
-        }        
+        },
+        {
+          "title": "Step 2 - 動作確認しよう",
+          "text": "step2.md"
+        }
       ],
       "intro": {
           "text": "intro.md",
