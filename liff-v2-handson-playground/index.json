@@ -1,0 +1,29 @@
+{
+    "title": "LIFF v2ハンズオン",
+    "description": "LIFF v2ハンズオン",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1 - 自動で環境構築",
+          "text": "step1.md"
+        }        
+      ],
+      "intro": {
+          "text": "intro.md",
+          "courseData": "background.sh",
+          "code": "foreground.sh",
+          "credits": ""
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "files": [],
+    "environment": {
+      "hideintro": true,
+      "uilayout": "editor-terminal"
+    },
+    "backend": {
+      "imageid": "node"
+    }
+  }
