@@ -6,6 +6,7 @@ cd example
 
 npm i
 
-pwd
+clear
 
-ls -lha .
+echo "インストール完了しました！"
+
