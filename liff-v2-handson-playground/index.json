@@ -24,8 +24,6 @@
     },
     "files": [],
     "environment": {
-      "showide": true,
-      "hideintro": true,
       "uilayout": "editor-terminal"
     },
     "backend": {
