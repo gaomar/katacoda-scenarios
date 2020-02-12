@@ -4,7 +4,7 @@
     "details": {
       "steps": [
         {
-          "title": "Step 1 - 自動で環境構築",
+          "title": "Step 1 - LIFF IDを作成しよう",
           "text": "step1.md"
         },
         {
