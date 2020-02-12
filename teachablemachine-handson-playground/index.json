@@ -1,0 +1,28 @@
+{
+    "title": "Teachable Machine x LINE Bot ハンズオン",
+    "description": "Teachable Machine x LINE Bot ハンズオン",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1 - Teachable Machineに触れてみよう",
+          "text": "step1.md"
+        }
+      ],
+      "intro": {
+          "text": "intro.md",
+          "courseData": "background.sh",
+          "code": "foreground.sh",
+          "credits": ""
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "files": [],
+    "environment": {
+      "uilayout": "editor-terminal"
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
