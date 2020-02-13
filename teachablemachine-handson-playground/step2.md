@@ -56,7 +56,7 @@ Messaging APIをクリックします。
 
 ```
 https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/linebot
-```
+```{{copy}}
 
 ![s311](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s311.png)
 

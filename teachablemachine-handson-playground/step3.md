@@ -6,7 +6,7 @@ IDEタブをクリックします。VSCodeが表示されるので、左側の�
 |CHANNEL_SECRET|2-2で発行したチャネルシークレットの値を貼り付ける|
 |CHANNEL_ACCESS_TOKEN|2-4で発行したチャネルアクセストークンの値を貼り付ける|
 |BASE_URL|1-7で発行したteachablemachineの学習モデルURLを貼り付ける|
-|DL_URL|https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com <br>こちらのURLを貼り付ける|
+|DL_URL| `https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com`{{copy}} <br>こちらのURLを貼り付ける|
 
 ![s400](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s400.png)
 
