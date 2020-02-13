@@ -51,7 +51,7 @@ LINEログインをクリックします。
 |:--|:--|
 |③エンドポイントURL|`https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`{{copy}} <br>こちらのURLを貼り付ける|
 |④Scope| `chat_message.write` と `profile` にチェックを入れる|
-|⑤ボットリンク機能| `On (Normal) ` を選択|
+|⑤ボットリンク機能| `Off` を選択|
 
 ![s209](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-v2-handson-playground/images/s209.png)
 

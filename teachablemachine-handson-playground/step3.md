@@ -18,7 +18,7 @@ IDEタブをクリックします。VSCodeが表示されるので、左側の�
 
 47-52行目を削除（コメントアウト）する
 
-`example/node_modules/@teachablemachine/image/dist/utils/canvas.js`{{open}}
+`~/example/node_modules/@teachablemachine/image/dist/utils/canvas.js`{{open}}
 
 ![s401](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s401.png)
 
