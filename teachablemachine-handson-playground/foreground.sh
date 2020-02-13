@@ -1,4 +1,4 @@
-git clone https://github.com/gaomar/teachablemachine-handson.git example
+git clone https://github.com/gaomar/teachablemachine-handson-playground.git example
 
 cd example
 

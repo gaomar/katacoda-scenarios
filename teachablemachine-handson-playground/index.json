@@ -6,6 +6,14 @@
         {
           "title": "Step 1 - Teachable Machineに触れてみよう",
           "text": "step1.md"
+        },
+        {
+          "title": "Step 2 - LINE Botチャネルを作成しよう",
+          "text": "step1.md"
+        },
+        {
+          "title": "Step 3 - 動作確認しよう",
+          "text": "step3.md"
         }
       ],
       "intro": {
