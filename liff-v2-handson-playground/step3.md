@@ -60,7 +60,7 @@ LIFFタイトルと日付を設定します。
 |項目|値|
 |:--|:--|
 |①タイプ|リンク|
-|②URL|2-2で生成されたLIFFのURLを指定する<br>例）line://app/xxxxxxxxxx-xxxxxxxx|
+|②URL|1-2で生成されたLIFFのURLを指定する<br>例）line://app/xxxxxxxxxx-xxxxxxxx|
 |③アクションラベル|LIFFを開く|
 
 ![s409](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-v2-handson-playground/images/s409.png)

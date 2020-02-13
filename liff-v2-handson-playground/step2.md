@@ -5,7 +5,7 @@ exampleフォルダにある `.env` ファイルをクリックして開きま�
 ![s300](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-v2-handson-playground/images/s300.png)
 
 ### 2-2. プログラム実行
-インストールが完了したら、下記コマンドを実行しましょう
+インストールが完了したら、下記コマンドを実行しましょう（クリックしてください）
 
 `npm run serve`{{execute}}
 

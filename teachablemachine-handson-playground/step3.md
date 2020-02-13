@@ -16,10 +16,9 @@ IDEタブをクリックします。VSCodeが表示されるので、左側の�
 詳細はこちら：
 [https://github.com/tr7zw/teachablemachine-node-example](https://github.com/tr7zw/teachablemachine-node-example)
 
-```
-// 47-52行目を削除（コメントアウト）する
-node_modules/@teachablemachine/image/dist/utils/canvas.js
-```
+47-52行目を削除（コメントアウト）する
+
+`example/node_modules/@teachablemachine/image/dist/utils/canvas.js`{{open}}
 
 ![s401](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s401.png)
 
