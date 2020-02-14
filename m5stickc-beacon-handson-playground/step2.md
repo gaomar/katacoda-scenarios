@@ -1,6 +1,7 @@
 ### 2-1. ハードウェアIDを発行する
 
 下記URLから [LINE Simple BeaconのハードウェアIDを発行]ボタンを押します。
+
 [https://manager.line.biz/beacon/register](https://manager.line.biz/beacon/register)
 
 ![s200](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/m5stickc-beacon-handson-playground/images/s200.png)
