@@ -3,21 +3,21 @@
 下記URLから [LINE Simple BeaconのハードウェアIDを発行]ボタンを押します。
 [https://manager.line.biz/beacon/register](https://manager.line.biz/beacon/register)
 
-![s200](images/s200.png)
+![s200](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/m5stickc-beacon-handson-playground/images/s200.png)
 
 アカウントリストから作成した「M5StickCビーコン」のボットを選択します。
 
-![s201](images/s201.png)
+![s201](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/m5stickc-beacon-handson-playground/images/s201.png)
 
 ［ハードウェアIDを発行］ボタンをクリックして、発行されたハードウェアIDをメモしておきます。
-![s202](images/s202.png)
+![s202](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/m5stickc-beacon-handson-playground/images/s202.png)
 
 ### 2-2. M5StickCに書き込む
 
 Arduino IDEを開いて、下記コードを適用してください。
 途中にある `HWID` は先程取得したものに変えてください。
 
-<pre class="file" data-target="clipboard">
+```c
 #include <M5StickC.h>
 #include <string>
 #include "BLEDevice.h"
@@ -135,10 +135,11 @@ void loop()
   }
   M5.update();
 }
-</pre>
+```{{copy}}
 
 M5Stackの方はこちらをコピペしてください。
-<pre class="file" data-target="clipboard">
+
+```c
 #include <M5Stack.h>
 #include <string>
 #include "BLEDevice.h"
@@ -256,11 +257,11 @@ void loop()
   }
   M5.update();
 }
-</pre>
+```{{copy}}
 
 ### 2-3. LINE Beaconを有効化にする
 LINEアプリの設定ページにある「プライバシー管理」-「情報の提供」の「LINE Beason」にチェックを入れてください。「同意して利用開始」ボタンをクリックしてLINE Beaconを有効化にします。
 
-![s203](images/s203.png)
+![s203](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/m5stickc-beacon-handson-playground/images/s203.png)
 
 これでM5StickCをビーコン化することができました。
