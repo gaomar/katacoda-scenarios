@@ -13,3 +13,10 @@ IDEタブをクリックしてVSCodeを開きます。exampleフォルダにあ�
 下記をクリックしてプログラムを実行してください
 
 `node index.js`{{execute}}
+
+### 4-3. 動作確認する
+M5StickCの中央にあるボタンを押下すると line beacon!ONと表示されます。
+M5Stackの方は真ん中のBボタンを押下するとビーコンがONになります。
+これでしばらく携帯電話を近づけておくと、LINEに通知とスプレッドシートにUUIDが記述されます。
+
+![s401](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/m5stickc-beacon-handson-playground/images/s401.png)
