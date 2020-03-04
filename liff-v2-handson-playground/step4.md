@@ -6,7 +6,7 @@
 これはLIFF上から送信先を選んで任意のメッセージを送信することができる機能です。
 
 ### 4-2. シェア機能を有効化する
-シェア機能を有効化する設定を行います。「シェアターゲットピッカー」を有効化します。
+シェア機能を有効化する設定を行います。 `LIFF-v2-Handson` チャネルのLIFFタブにある「シェアターゲットピッカー」を有効化します。
 
 ![s500](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-v2-handson-playground/images/s500.png)
 
