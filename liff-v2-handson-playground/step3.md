@@ -112,24 +112,22 @@ PCブラウザから押せなくなっていた［LINEに送る］ボタンが�
 
 ### 3-7. 自動でLIFFウィンドウを閉じる
 プログラムコードを少し改変してみましょう。src/views/Login.vueファイルを開きます。
-108行目と115行目の2箇所コメントアウトしてコードを有効化します。編集したらファイルを保存してください。
+116行目と123行目の2箇所コメントアウトしてコードを有効化します。
 
 `liff.closeWindow()` が実行されると自動的にLIFFウィンドウが閉じるようになります。
 実際に動かすと3秒後にLIFFウィンドウが自動的に閉じる動きになります。
 
 ```javascript
-///*  ← コメント解除(108行目)
+///*  ← コメント解除(116行目)
         // 自動的に閉じる
         setTimeout(()=> {
           liff.closeWindow()
         },
           this.snackbarTimeout
         )
-//*/  ← コメント解除（115行目）
+//*/  ← コメント解除（123行目）
 ```
 
 ![s419](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-v2-handson-playground/images/s419.png)
 
 編集が終わったら直ぐにVue.jsが反映されるので、LIFFを開くをタップして動作確認してみてください。
-
-LINEログインからLINEメッセージ送信までを行いました。LIFFを駆使して面白いアプリを作ってみましょう！
