@@ -20,11 +20,14 @@
     "files": [],
     "environment": {
       "showide": true,
-      "dashboards": [{"name": "AWS", "href": "https://aws.amazon.com/jp/"}],
+      "dashboards": [{"name": "Port 80", "port": 80},
+        {"name": "AWS", "href": "https://aws.amazon.com/jp/"}
+      ],
       "hideintro": true,
       "uilayout": "iframe"
     },
     "backend": {
-      "imageid": "ubuntu"
+      "imageid": "ubuntu",
+      "port": 80
     }
   }
