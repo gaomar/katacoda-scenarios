@@ -23,5 +23,8 @@
       "dashboards": [{"name": "AWS", "href": "https://aws.amazon.com/jp/"}],
       "hideintro": true,
       "uilayout": "iframe"
+    },
+    "backend": {
+      "imageid": "ubuntu"
     }
   }
