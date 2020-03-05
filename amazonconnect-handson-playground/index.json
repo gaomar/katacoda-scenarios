@@ -1,4 +1,5 @@
 {
+    "noindex": true,
     "title": "Amazon Connectハンズオン【基礎編】",
     "description": "Amazon Connectハンズオン【基礎編】",
     "details": {
@@ -24,7 +25,7 @@
         {"name": "AWS", "href": "https://aws.amazon.com/jp/"}
       ],
       "hideintro": true,
-      "uilayout": "iframe"
+      "uilayout": "terminal-iframe"
     },
     "backend": {
       "imageid": "ubuntu",
