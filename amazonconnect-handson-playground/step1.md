@@ -96,11 +96,11 @@ AmazonConnectHandson
 
 この時「解釈する」のプルダウンメニューから `SSML` に変更してください。
 
-<pre class="file" data-target="clipboard">
+```html
 <speak>
 <break time="2s"/>
 お電話ありがとうございます。アイエンターでございます。<prosody rate="x-slow">ゆっくり話します。お電話ありがとうございました。</prosody>
 </speak>
-</pre>
+```{{copy}}
 
 ![s114](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/amazonconnect-handson-playground/images/s114.png)
