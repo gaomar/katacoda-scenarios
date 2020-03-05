@@ -1,0 +1,27 @@
+{
+    "title": "Amazon Connectハンズオン【基礎編】",
+    "description": "Amazon Connectハンズオン【基礎編】",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1 - Amazon Connectに触れてみよう",
+          "text": "step1.md"
+        }
+      ],
+      "intro": {
+          "text": "intro.md",
+          "courseData": "background.sh",
+          "credits": ""
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "files": [],
+    "environment": {
+      "showide": true,
+      "dashboards": [{"name": "AWS", "href": "https://aws.amazon.com/jp/"}],
+      "hideintro": true,
+      "uilayout": "iframe"
+    }
+  }
