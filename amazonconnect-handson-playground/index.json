@@ -13,19 +13,15 @@
           "text": "intro.md",
           "courseData": "background.sh",
           "credits": ""
-      },
-      "finish": {
-        "text": "finish.md"
       }
     },
-    "files": [],
     "environment": {
-      "showide": true,
-      "dashboards": [{"name": "Port 80", "port": 80},
+      "hideintro": true,
+      "showdashboard": true,
+      "dashboards": [
         {"name": "AWS", "href": "https://aws.amazon.com/jp/"}
       ],
-      "hideintro": true,
-      "uilayout": "terminal-iframe"
+      "uilayout": "terminal"
     },
     "backend": {
       "imageid": "ubuntu",
