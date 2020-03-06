@@ -7,6 +7,18 @@
         {
           "title": "Step 1 - Amazon Connectに触れてみよう",
           "text": "step1.md"
+        },
+        {
+          "title": "Step 2 - 営業時間に対応しよう",
+          "text": "step2.md"
+        },
+        {
+          "title": "Step 3 - 着信履歴を残そう",
+          "text": "step3.md"
+        },
+        {
+          "title": "Step 4 - Lambdaを実装しよう",
+          "text": "step4.md"
         }
       ],
       "intro": {
