@@ -16,15 +16,18 @@
 
 ![s202](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s202.png)
 
-下記をコピペして `What do you want to say?` 部分に貼り付ける
-
+下記をコピペして
 `rpaに $ と書いて`{{copy}}
+
+`What do you want to say?` 部分に貼り付ける
+
 
 ![s203](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s203.png)
 
-下記をコピペして `What do you want the Assistant to say in response?` 部分に貼り付ける
-
+下記をコピペして
 `$ と書きました`{{copy}}
+
+`What do you want the Assistant to say in response?` 部分に貼り付ける
 
 Languageは `Japanese` を選択して、［Create trigger］ボタンをクリック
 
