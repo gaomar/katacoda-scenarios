@@ -30,7 +30,7 @@
       "hideintro": true,
       "showdashboard": true,
       "dashboards": [{"name": "IFTTT", "href": "https://ifttt.com/create/"}],
-      "uilayout": "terminal-iframe"
+      "uilayout": "terminal"
     },
     "backend": {
       "imageid": "ubuntu"
