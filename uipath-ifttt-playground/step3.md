@@ -34,4 +34,6 @@ IDEタブをクリックします。`example/.env` ファイルを開いてく�
 `node index.js`{{execute}}
 
 ### 3-3. 動作確認
-これでGoogle Assistantアプリを起動して、「rpaに○○を書いて」と言うとUiPathが起動してメモ帳に書き込まれます。
+これでGoogle Assistantアプリを起動して、「rpaに○○と書いて」と言うとUiPathが起動してメモ帳に書き込まれます。
+
+![s301](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s301.png)
