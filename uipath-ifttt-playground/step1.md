@@ -5,36 +5,36 @@
 
 組織名、姓名、国/地域を設定します。利用規約とプライバシーポリシーの2つにチェックを入れて、［続行］ボタンをクリックします。
 
-![s100](images/s100.png)
+![s100](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s100.png)
 
 言語を日本語に切り替えます。右上のボタンをクリックして、［日本語］を選択します。
 
-![s101](images/s101.png)
+![s101](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s101.png)
 
 左側メニューから「サービス」をクリックします。サービスのメニューから［APIアクセス］をクリックします。
 
-![s102](images/s102.png)
+![s102](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s102.png)
 
 Step3で使いますので、 `ユーザーキー` 、`アカウントの論理名` 、`テナントの論理名` 、 `クライアントID` をそれぞれメモしておきます。
 
-![s103](images/s103.png)
+![s103](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s103.png)
 
 ### 1-2. 標準マシンを設定する
 `xxxxxDefault` 部分をクリックします。
 
-![s104](images/s104.png)
+![s104](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s104.png)
 
 マシンを追加します。左側メニューのマシンをクリックして、［＋］ボタンをクリックして、［標準マシン］をクリックします。
 
-![s105](images/s105.png)
+![s105](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s105.png)
 
 Windowsのシステムからコンピュータ名をコピーします。標準マシン名とコンピュータ名は一致させる必要があります。ライセンス - Unattendedランタイムの数字を「1」に増やしてから、［プロビジョニング］ボタンをクリックします。
 
-![s106](images/s106.png)
+![s106](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s106.png)
 
 作成した標準マシンのメニューボタンをクリックして、［編集］をクリックします。ポップアップが表示されるので、そこに記載されているマシンキーをメモしておきます。
 
-![s107](images/s107.png)
+![s107](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s107.png)
 
 ### 1-3. ロボットを設定する
 左側メニューのロボットをクリックし、［＋］ボタンを押して、標準ロボットをクリックします。ポップアップが表示されるので、それぞれ項目を埋めていきます。
@@ -48,74 +48,74 @@ Windowsのシステムからコンピュータ名をコピーします。標準�
 |⑤タイプ|`Unattended` を選択|
 |⑥ドメイン\ユーザー名<br>パスワード|Windows 10でログインしているユーザ名とパスワードを指定<br>※ご自身の環境に合わせてください|
 
-![s108](images/s108.png)
+![s108](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s108.png)
 
 ### 1-4. ロボットグループを設定する
 ロボットグループをクリックし、［＋］ボタンをクリックします。ポップアップが表示されるので、ロボットグループ名を入力し、［作成］ボタンをクリックします。今回は `handson-rpa` としました。
 
-![s109](images/s109.png)
+![s109](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s109.png)
 
 グループに加えるロボット名にチェックを入れてから［更新］ボタンをクリックします。
 
-![s110](images/s110.png)
+![s110](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s110.png)
 
 ### 1-5. UiPath Studio をインストールする
 左上のアカウントメニューから［Cloud Platformに戻る］をクリックします。
 
-![s111](images/s111.png)
+![s111](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s111.png)
 
 左側メニューのリソースセンターにある `Community Edition` の「安定版」をクリックして、［ダウンロード］ボタンをクリックします。
 
-![s112](images/s112.png)
+![s112](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s112.png)
 
 ダウンロードしたファイルをダブルクリックして、UiPath Studioをインストールします。
 
-![s113](images/s113.png)
+![s113](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s113.png)
 
 ### 1-6. UiPath Agent Desktop を設定する
 スタートボタンから `UiPath Agent Desktop` を起動します。
 
-![s114](images/s114.png)
+![s114](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s114.png)
 
 設定ボタンから［Orchestratorの設定］をクリックします。
 
-![s115](images/s115.png)
+![s115](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s115.png)
 
 左側メニューから「Orchestratorの設定」をクリックして、Orchestrator URLを貼り付けます。URLはUiPathのURL `https://platform.uipath.com/xxxxx/xxxxxDefault/` 部分のみをコピーして貼り付けます。マシンキーは 1-2 で発行しているものを貼り付けます。［接続］ボタンをクリックします。
 
-![s116](images/s116.png)
+![s116](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s116.png)
 
 接続されると、「接続済み、ライセンス済み」と表示されます。
 
-![s117](images/s117.png)
+![s117](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s117.png)
 
 ### 1-7. UiPath Studioを起動する
 裏で起動しているUiPath Studioの設定を行います。「ライセンスキーを取得」をクリックします。起動していない方はUiPath Studioを開いておいてください。
 
 ※ここでライセンス済みになっていない方は進むことができないので注意してください。
 
-![s118](images/s118.png)
+![s118](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s118.png)
 
 「UiPath Studio」をクリック。
 
-![s119](images/s119.png)
+![s119](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s119.png)
 
 「安定」をクリック。
 
-![s120](images/s120.png)
+![s120](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s120.png)
 
 ［プロセス］をクリック。
 
-![s121](images/s121.png)
+![s121](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s121.png)
 
 ### 1-8. UiPathプロセスを作成する
 受け取ったデータをWindowsのメモ帳に記述するプロセスを作成します。名前に「callMemo」と入力して［作成］ボタンをクリックします。
 
-![s122](images/s122.png)
+![s122](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s122.png)
 
 `Main.xaml` ファイルを開きます。
 
-![s123](images/s123.png)
+![s123](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s123.png)
 
 「アクティビティ」タブをクリックして、[システム] - [ファイル] - [文字列を追加書き込み]ブロックを「ここにアクティビティをドロップ」部分にドラッグアンドドロップします。①
 
@@ -123,7 +123,7 @@ Windowsのシステムからコンピュータ名をコピーします。標準�
 
 右側のプロパティ部分にある「エンコーディング」は `"utf-8"` を入力してください。⑦
 
-![s124](images/s124.png)
+![s124](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s124.png)
 
 [システム] - [プロセスを開始]ブロックをドラッグアンドドロップします。「実行可能なパス」にメモ帳アプリがある場所を指定します。基本的に下記パスにあることが多いです。
 
@@ -136,31 +136,31 @@ C:¥Windows¥system32¥notepad.exe
 
 アプリケーションの引数は文字列を追加書き込みで指定したファイルパスを入力します。これで準備できたので、画面右上にある［パブリッシュ］ボタンをクリックします。
 
-![s125](images/s125.png)
+![s125](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s125.png)
 
 ロボットをクラウドにアップロードする処理を行います。［パブリッシュ］ボタンをクリックします。
 
-![s126](images/s126.png)
+![s126](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s126.png)
 
 こちらの画面が表示されれば問題ありません。
 
-![s127](images/s127.png)
+![s127](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s127.png)
 
 ### 1-10. UIPath Orchestratorからプロセスをデプロイする
 UIPath Orchestratorページを開いてください。左側メニューにある「プロセス」の［＋］ボタンをクリックします。パッケージ名は `callMemo` を選択して、［作成］ボタンをクリックします。
 
-![s128](images/s128.png)
+![s128](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s128.png)
 
 ### 1-11. ジョブを実行する
 作成したジョブを実行してみましょう。左側メニューの「ジョブ」①の［▶］ボタン②をクリックします。先程デプロイした `callMemo_handson-rpa` のプロセスを選択③して、「パラメーター」タブ④をクリックします。［編集］鉛筆マーク⑤をクリックして、送信したいメッセージを入力します⑥。右下の［保存］をクリックします⑦。
 
-![s129](images/s129.png)
+![s129](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s129.png)
 
 「実行ターゲット」タブ①をクリックして、 `handson-rpa` のロボットにあるチェックボックスをONにします。右下の［開始］ボタンをクリックするとジョブが実行されます。
 
-![s130](images/s130.png)
+![s130](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s130.png)
 
 正しく実行されると、メモ帳が起動して「てすと」と自動的に入力されます。
 
-![s131](images/s131.png)
+![s131](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s131.png)
 

@@ -8,7 +8,7 @@ IDEタブをクリックします。`example/.env` ファイルを開いてく�
 |RPA_TENANT_NAME|テナントの論理名|
 |RPA_CLIENT_ID|クライアントID|
 
-![s300](images/s300.png)
+![s300](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s300.png)
 
 下記コマンドを実行します。
 
