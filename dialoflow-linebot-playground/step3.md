@@ -18,9 +18,7 @@
 
 入力したら、［Define prompts］をクリックします。ポップアップが表示されるので、身長を答えてもらえるような言葉を登録します。
 
-```
-あなたの身長をcmで教えて下さい
-```
+`あなたの身長をセンチで教えて下さい`{{copy}}
 
 ![s402](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/dialoflow-linebot-playground/images/s402.png)
 
@@ -32,7 +30,7 @@
 |PARAMETER NAME|weight|
 |ENTITY|@sys.number|
 |VALUE|$weight|
-|PROMPTS|続いてあなたの体重をkgで教えて下さい|
+|PROMPTS|`続いてあなたの体重をキログラムで教えて下さい`{{copy}}|
 
 このようになればOKです。
 
