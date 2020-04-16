@@ -125,14 +125,10 @@ Windowsのシステムからコンピュータ名をコピーします。標準�
 
 ![s124](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s124.png)
 
+### 1-9. パブリッシュする
 [システム] - [プロセスを開始]ブロックをドラッグアンドドロップします。「実行可能なパス」にメモ帳アプリがある場所を指定します。基本的に下記パスにあることが多いです。
 
-```
-C:¥Windows¥system32¥notepad.exe
-```
-{{copy}}
-
-### 1-9. パブリッシュする
+`C:¥Windows¥system32¥notepad.exe`{{copy}}
 
 アプリケーションの引数は文字列を追加書き込みで指定したファイルパスを入力します。これで準備できたので、画面右上にある［パブリッシュ］ボタンをクリックします。
 
