@@ -89,6 +89,24 @@ Windowsのシステムからコンピュータ名をコピーします。標準�
 
 ![s117](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s117.png)
 
+もし「接続済み、ライセンスなし」と表示された方は下記手順をお試しください。
+
+![s400](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s400.png)
+
+UiPath Orchestrator画面の右上にあるアイコンをクリックして、［ライセンス］をクリックします。
+
+![s401](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s401.png)
+
+Unattendedの［詳細を確認］をクリックします。
+
+![s402](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s402.png)
+
+サービスユーザー名が書かれていないライセンス状況が赤色側のアクティブを `OFF` にしてください。
+
+![s403](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/uipath-ifttt-playground/images/s403.png)
+
+これで再度接続すると「接続済み、ライセンス済み」と表示されます。
+
 ### 1-7. UiPath Studioを起動する
 裏で起動しているUiPath Studioの設定を行います。「ライセンスキーを取得」をクリックします。起動していない方はUiPath Studioを開いておいてください。
 
