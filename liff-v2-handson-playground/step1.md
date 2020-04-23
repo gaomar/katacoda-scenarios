@@ -59,6 +59,6 @@ LINEログインをクリックします。
 
 ![s210](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-v2-handson-playground/images/s210.png)
 
-LIFFのIDが生成されるので、赤枠の値をメモしておきます。
+LIFFのIDが生成されるので、 `https://liff.line.me/xxxxxxxxxx-xxxxxxxx` 赤枠の値をメモしておきます。
 
 ![s211](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-v2-handson-playground/images/s211.png)
