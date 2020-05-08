@@ -11,9 +11,9 @@
 ### 2-2. プログラムを実行する
 下記コマンドをそれぞれ実行してください。
 
-`npm run serve` {{execute T1}}
+`npm run serve`{{execute T1}}
 
-`npm run lambda` {{execute T2}}
+`npm run lambda`{{execute T2}}
 
 ### 2-3. 動作確認
 下記URLにアクセスしてください。
