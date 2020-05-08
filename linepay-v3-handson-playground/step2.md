@@ -21,7 +21,7 @@ IDEタブをクリックしてVSCodeを起動します。
 ■ファンクション起動
 
 ```
-cd sample
+cd example
 
 npm run lambda
 ```{{execute T2}}
