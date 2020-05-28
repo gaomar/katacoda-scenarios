@@ -51,23 +51,29 @@ Messaging APIをクリックします。
 
 ![s310](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s310.png)
 
-### 2-5. WebhookのURLを設定する
-下記URLを追加して［更新］ボタンをクリックします。更新するとWebhookの利用部分が表示されるので、有効にしておきます。
+### 2-5. LINE公式アカウントを設定する
+Botの応答メッセージを無効にしたいので設定を行います。［編集］部分をクリックします。
+
+![s312](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s312.png)
+
+
+詳細設定にある応答メッセージとWebhookの設定を行います。設定したら、［Messaging API設定］をクリックします。
+
+|項目|値|
+|:--|:--|
+|応答メッセージ| オフ|
+|Webhook| オン |
+
+![s313](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s313.png)
+
+### 2-6. WebhookのURLを設定する
+下記URLを貼り付けて［保存］ボタンをクリックします。
 
 ```
 https://[[HOST_SUBDOMAIN]]-1880-[[KATACODA_HOST]].environments.katacoda.com/linebot
 ```{{copy}}
 
-![s311](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s311.png)
-
-### 2-6. LINE公式アカウントを設定する
-Botの応答メッセージを無効にしたいので設定を行います。［編集］部分をクリックします。
-
-![s312](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s312.png)
-
-ここをオフにしておく。
-
-![s313](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s313.png)
+![s314](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-linebot-node-red-playground/images/s314.png)
 
 以上でLINE Botの設定は完了です。
 
