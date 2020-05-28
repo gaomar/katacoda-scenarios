@@ -64,7 +64,7 @@ Botの応答メッセージを無効にしたいので設定を行います。�
 |応答メッセージ| オフ|
 |Webhook| オン |
 
-![s313](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s313.png)
+![s313](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-linebot-node-red-playground/images/s313.png)
 
 ### 2-6. WebhookのURLを設定する
 下記URLを貼り付けて［保存］ボタンをクリックします。
