@@ -1,6 +1,9 @@
 ### 3-1. ユーザー名とパスワードをメモする
 KatacodaのTerminalに表示されている `ユーザ名` と `パスワード` をメモしておいてください。
 
+![s300](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-linebot-node-red-playground/images/s300.png)
+
+
 下記コマンドを実行するとNode-REDが起動できます。
 
 `node-red`{{execute}}

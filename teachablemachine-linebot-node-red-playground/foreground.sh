@@ -24,6 +24,5 @@ sed -i -e "s*CLOUD_NODERED_PASSWORD*$UI_NODERED_PASSWORD_CRYPT*" /root/.node-red
 
 clear
 
-echo "ユーザ名: admin"
-echo "パスワード: ${YOUR_NODERED_PASSWORD}"
+echo "ユーザ名: admin パスワード: ${YOUR_NODERED_PASSWORD}"
 
