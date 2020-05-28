@@ -54,7 +54,7 @@ Messaging APIをクリックします。
 ### 2-5. LINE公式アカウントを設定する
 Botの応答メッセージを無効にしたいので設定を行います。［編集］部分をクリックします。
 
-![s312](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-handson-playground/images/s312.png)
+![s312](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/teachablemachine-linebot-node-red-playground/images/s312.png)
 
 
 詳細設定にある応答メッセージとWebhookの設定を行います。設定したら、［Messaging API設定］をクリックします。
