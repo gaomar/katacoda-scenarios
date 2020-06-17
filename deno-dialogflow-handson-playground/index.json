@@ -1,0 +1,32 @@
+{
+    "title": "Deno x Dialogflow ハンズオン",
+    "description": "Deno x Dialogflow ハンズオン",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1 - Denoに触れてみよう",
+          "text": "step1.md"
+        }
+      ],
+      "intro": {
+          "text": "intro.md",
+          "courseData": "background.sh",
+          "code": "foreground.sh",
+          "credits": ""
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "files": [],
+    "environment": {
+      "showide": true,
+      "ide": "ssh host01 '/opt/start-vscode.sh'",
+      "idePort": 23000,
+      "hideintro": true,
+      "uilayout": "terminal"  
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
