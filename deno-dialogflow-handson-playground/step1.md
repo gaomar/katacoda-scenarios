@@ -10,3 +10,8 @@
 下記URLにアクセス
 
 https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
+
+下記コマンドで一度プログラムを止めておこう
+
+<kbd>Ctrl</kbd>+<kbd>C</kbd>
+`echo "プログラム停止"`{{execute interrupt}}

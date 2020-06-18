@@ -1,7 +1,3 @@
-sudo npm install -g n
-
-sudo n latest
-
 git clone https://github.com/gaomar/deno-dialogflowmessenger.git example
 
 cd example
