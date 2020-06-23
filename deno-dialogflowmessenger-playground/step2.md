@@ -1,7 +1,7 @@
 ### 2-1. プログラムを編集する
 IDEタブをクリックしてVSCodeを起動します。 `example/public/index.html` ファイルを開いてください。その中にある `agent-id` をStep1-4でメモした値に変更しておきます。
 
-![s110](images/s110.png)
+![s110](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflowmessenger-playground/images/s110.png)
 
 ### 2-2. Denoを動かしてみよう
 下記コマンドを実行してみよう
@@ -12,7 +12,7 @@ IDEタブをクリックしてVSCodeを起動します。 `example/public/index.
 
 https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
 
-![s111](images/s111.png)
+![s111](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflowmessenger-playground/images/s111.png)
 
 他のレスポンスを試す方は、下記コマンドで一度プログラムを止めてください。
 
@@ -54,7 +54,7 @@ js = {
 }
 </pre>
 
-![s200](images/s200.png)
+![s200](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflowmessenger-playground/images/s200.png)
 
 ### 画像レスポンス
 画像を返してくれます。svgファイル以外にもjpeg、png画像なども可能です。
@@ -79,7 +79,7 @@ js = {
 }
 </pre>
 
-![s201](images/s201.png)
+![s201](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflowmessenger-playground/images/s201.png)
 
 ### ボタンレスポンス
 クリックすると、別のWebページに遷移させることができます。また `event` を使うことで、別途パラメータを渡すこともできます。
@@ -115,7 +115,7 @@ js = {
 }
 </pre>
 
-![s202](images/s202.png)
+![s202](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflowmessenger-playground/images/s202.png)
 
 ### リストレスポンス
 検索結果などを表示するのに適しているものです。 `divider` を使うことで区切り線をつけることができます。クリックで反応することができます。 `event` にも対応しています。
@@ -162,7 +162,7 @@ js = {
 }
 </pre>
 
-![s203](images/s203.png)
+![s203](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflowmessenger-playground/images/s203.png)
 
 ### アコーディオン
 クリックすると、メニューが展開されます。
@@ -188,7 +188,7 @@ js = {
 }
 </pre>
 
-![s204](images/s204.png)
+![s204](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflowmessenger-playground/images/s204.png)
 
 ### 候補ワードレスポンス
 押してほしい候補をボタンで返してくれます。 `image` を指定するとボタンアイコンを設定することができます。
@@ -224,7 +224,7 @@ js = {
 }
 </pre>
 
-![s205](images/s205.png)
+![s205](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflowmessenger-playground/images/s205.png)
 
 ### 組み合わせレスポンス
 これまでに紹介したものを組み合わせることができます。
@@ -255,4 +255,4 @@ js = {
 }
 </pre>
 
-![s206](images/s206.png)
+![s206](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflowmessenger-playground/images/s206.png)
