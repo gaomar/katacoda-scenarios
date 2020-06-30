@@ -1,18 +1,20 @@
 ### 1-1. Denoを動かしてみよう
-下記コマンドを実行してみよう
+下記コマンドを実行してみよう。`Welcome to Deno 🦕`と表示されればOKです。
 
 `deno run https://deno.land/std/examples/welcome.ts`{{execute}}
 
+### 1-2. TypeScriptから動かしてみよう
 
-下記コマンドを実行してみよう
+`IDE` タブをクリックして、 `example/hello.ts` ファイルを開いてください。
+下記プログラムをファイルに反映してみましょう。
 
-`deno run --allow-net --allow-read index.ts`{{execute}}
+<pre class="file" data-target="clipboard">
+let name: string;
+name = '私の名前は「XXX」です。';
 
-下記URLにアクセス
+console.log(name);
+</pre>
 
-https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
+下記コマンドを実行してみよう。コンパイルされてログが出力されます。
 
-下記コマンドで一度プログラムを止めておこう
-
-<kbd>Ctrl</kbd>+<kbd>C</kbd>
-`echo "プログラム停止"`{{execute interrupt}}
+`deno run hello.ts`{{execute}}

@@ -6,6 +6,10 @@
         {
           "title": "Step 1 - Denoに触れてみよう",
           "text": "step1.md"
+        },
+        {
+          "title": "Step 2 - REST APIを作成しよう",
+          "text": "step2.md"
         }
       ],
       "intro": {

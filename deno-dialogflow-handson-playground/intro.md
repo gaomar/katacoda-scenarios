@@ -1,5 +1,5 @@
 ## この教材について
 
-この教材はTeachable Machineを使って簡易的な分類器を作成してLINEと連携して実際に動きを確認することができるハンズオンです。
+この教材はDenoを使ってREST APIを作成して、Dialogflowの応答が体験できるハンズオンです。
 
 START SENARIO ボタンを押して、はじめましょう！
