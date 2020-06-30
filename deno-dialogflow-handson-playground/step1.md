@@ -7,16 +7,19 @@
 
 `IDE` タブをクリックして、 `example/hello.ts` ファイルを開いてください。
 
-
 下記プログラムをファイルに反映してみましょう。
 
 <pre class="file" data-target="clipboard">
-let name: string;
-name = '私の名前は「XXX」です。';
+let myName: string;
+myName = '私の名前は「XXX」です。';
 
-console.log(name);
+console.log(myName);
 </pre>
+
+![s100](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflow-handson-playground/images/s100.png)
 
 下記コマンドを実行してみよう。コンパイルされてログが出力されます。
 
 `deno run hello.ts`{{execute}}
+
+![s101](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflow-handson-playground/images/s101.png)
