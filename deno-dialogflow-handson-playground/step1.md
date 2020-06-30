@@ -6,6 +6,8 @@
 ### 1-2. TypeScriptから動かしてみよう
 
 `IDE` タブをクリックして、 `example/hello.ts` ファイルを開いてください。
+
+
 下記プログラムをファイルに反映してみましょう。
 
 <pre class="file" data-target="clipboard">

@@ -1,4 +1,4 @@
-git clone https://github.com/gaomar/deno-dialogflowmessenger.git example
+git clone https://github.com/gaomar/deno-dialogflowhandson.git example
 
 cd example
 
