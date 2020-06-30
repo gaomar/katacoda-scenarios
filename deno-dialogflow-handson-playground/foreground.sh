@@ -1,5 +1,3 @@
-sudo npm install -g n
-sudo n latest
 git clone https://github.com/gaomar/deno-dialogflowhandson.git example
 
 cd example

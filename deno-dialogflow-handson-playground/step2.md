@@ -61,7 +61,7 @@ app.start({port: 3000});
 
 下記コマンドを実行します。
 
-`deno run --allow-net hello.js`{{execute}}
+`deno run --allow-net --allow-read hello.js`{{execute}}
 
 画面右側の `Try it now` 部分に好きな言葉を入力してください。
 すると `Denoから「XXXXXX」` と入力した言葉が返ってきます。
@@ -112,7 +112,7 @@ app.start({port: 3000})
 
 再度コマンドを実行します。
 
-`deno run --allow-net hello.js`{{execute}}
+`deno run --allow-net --allow-read hello.js`{{execute}}
 
 <pre class="file" data-target="clipboard">
 import { Application, Context } from "https://deno.land/x/abc@v1.0.0-rc10/mod.ts"
