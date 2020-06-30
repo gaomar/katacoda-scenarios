@@ -6,16 +6,16 @@
 アプリ名、アプリURLを入力します。アプリURLはご自身のGitHubのURLでも良いですし、お好きなURLを指定してください。なんでも構いません。
 （※すでに登録されている方は発行する必要はありません）
 
-![s300](images/s300.png)
+![s300](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflow-handson-playground/images/s300.png)
 
 発行されたアプリID/デベロッパーIDをメモしておきます。
 
-![s301](images/s301.png)
+![s301](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflow-handson-playground/images/s301.png)
 
 ### 3-2. .envファイルに反映させる
 `example/.env` ファイルを開いて先程発行したアプリIDを貼り付けてください。
 
-![s302](images/s302.png)
+![s302](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflow-handson-playground/images/s302.png)
 
 ### 3-3. 動作確認
 
@@ -32,7 +32,7 @@ Step2-5のプログラムが動いているので、下記コマンドで一度�
 
 https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
 
-![s303](images/s303.png)
+![s303](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflow-handson-playground/images/s303.png)
 
 ### まとめ
 Denoを使うと、今までにあったnode_moduleフォルダが無くなり、シンプルな構成で開発できると思います。まだ出たばかりなので、どんどんアップデートされていくことでしょう。
