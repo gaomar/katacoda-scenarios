@@ -10,6 +10,10 @@
         {
           "title": "Step 2 - REST APIを作成しよう",
           "text": "step2.md"
+        },
+        {
+          "title": "Step 3 - 楽天APIと連携しよう",
+          "text": "step3.md"
         }
       ],
       "intro": {
