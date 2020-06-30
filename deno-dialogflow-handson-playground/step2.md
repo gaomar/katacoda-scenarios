@@ -61,7 +61,7 @@ app.start({port: 3000});
 
 下記コマンドを実行します。
 
-`deno run --allow-net --allow-read hello.js`{{execute}}
+`deno run --allow-net hello.ts`{{execute}}
 
 画面右側の `Try it now` 部分に好きな言葉を入力してください。
 すると `Denoから「XXXXXX」` と入力した言葉が返ってきます。
@@ -98,11 +98,11 @@ app.post('/', async (ctx: Context) => {
             fulfillmentText: `Denoから「${queryResult.queryText}」`
         };
     }
-    await ctx.json(js)
+    await ctx.json(js);
 })
 
 // ポート開く
-app.start({port: 3000})
+app.start({port: 3000});
 </pre>
 
 下記コマンドで一度プログラムを止めておこう
@@ -112,35 +112,35 @@ app.start({port: 3000})
 
 再度コマンドを実行します。
 
-`deno run --allow-net --allow-read hello.js`{{execute}}
+`deno run --allow-net hello.ts`{{execute}}
 
 <pre class="file" data-target="clipboard">
-import { Application, Context } from "https://deno.land/x/abc@v1.0.0-rc10/mod.ts"
-const app = new Application()
+import { Application, Context } from "https://deno.land/x/abc@v1.0.0-rc10/mod.ts";
+const app = new Application();
 
 app.post('/', async (ctx: Context) => {
-    const {queryResult} = await (ctx.body())
-    const displayName = queryResult.intent.displayName
-    let js = {}
+    const {queryResult} = await (ctx.body());
+    const displayName = queryResult.intent.displayName;
+    let js = {};
 
     if (displayName === 'MorningIntent') {
         js = {
             fulfillmentText: `Denoからおはようございます！`
-        }
+        };
     } else if (displayName === 'NameIntent') {
         js = {
             fulfillmentText: `あなたの名前は「${queryResult.parameters.name}」ですね！`
-        }
+        };
     } else {
         js = {
             fulfillmentText: `Denoから「${queryResult.queryText}」`
-        }    
+        };
     }
-    await ctx.json(js)
+    await ctx.json(js);
 })
 
 // ポート開く
-app.start({port: 3000})
+app.start({port: 3000});
 </pre>
 
 
