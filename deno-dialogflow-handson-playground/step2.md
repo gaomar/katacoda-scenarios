@@ -91,7 +91,7 @@ app.post('/', async (ctx: Context) => {
     // MorningIntentかどうか判別
     if (displayName === 'MorningIntent') {
         js = {
-            fulfillmentText: `Denoからおはようございます！`
+            fulfillmentText: `😃おはようございます😃`
         };
     } else {
         js = {
@@ -105,7 +105,9 @@ app.post('/', async (ctx: Context) => {
 app.start({port: 3000});
 </pre>
 
-下記コマンドで一度プログラムを止めておこう
+![s206](images/s206.png)
+
+Step2-2のプログラムが動いているので、下記コマンドで一度プログラムを止めておきます。
 
 <kbd>Ctrl</kbd>+<kbd>C</kbd>
 `echo "プログラム停止"`{{execute interrupt}}
@@ -113,6 +115,39 @@ app.start({port: 3000});
 再度コマンドを実行します。
 
 `deno run --allow-net hello.ts`{{execute}}
+
+これでDialogflowの Try it now で「おはよう」と入力すると、Denoを経由して「😃おはようございます😃」と返ってきます。
+
+![s207](images/s207.png)
+
+### 2-4. パラメーターの受け取り
+新規Intentを作成します。［＋］をクリックして、Intent名を `NameIntent` とします。Tranining phrasesに「スタート」と入力してください。
+
+![s208](images/s208.png)
+
+Action and parametersカテゴリの項目を埋めていきます。
+
+|項目|値|
+|:--|:--|
+|REQUIRED| チェックを入れる|
+|PARAMETER NAME|name|
+|ENTITY|@sys.any|
+|VALUE|$name|
+|PROMPTS| Define prompts をクリック|
+
+![s209](images/s209.png)
+
+Define promptsをクリックして、「君の名前は？」と入力します。これで「スタート」と入力した後に「君の名前は？」とDialogflow側から聞かれるようになります。
+
+![s210](images/s210.png)
+
+Fulfillmentカテゴリにある `Enable webhook call for this intent` を有効化にしておきます。
+設定できたら右上にある［SAVE］をクリックします。
+
+![s211](images/s211.png)
+
+下記プログラムを hello.tsファイルにコピペしてください。（※既存のプログラムに上書きします）
+`queryResult.parameters.name` にDialogflowから送られてくるパラメーターを取得することができます。
 
 <pre class="file" data-target="clipboard">
 import { Application, Context } from "https://deno.land/x/abc@v1.0.0-rc10/mod.ts";
@@ -125,7 +160,7 @@ app.post('/', async (ctx: Context) => {
 
     if (displayName === 'MorningIntent') {
         js = {
-            fulfillmentText: `Denoからおはようございます！`
+            fulfillmentText: `😃おはようございます😃`
         };
     } else if (displayName === 'NameIntent') {
         js = {
@@ -137,18 +172,91 @@ app.post('/', async (ctx: Context) => {
         };
     }
     await ctx.json(js);
-})
+});
 
 // ポート開く
 app.start({port: 3000});
 </pre>
 
-
-下記URLにアクセス
-
-https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
-
-下記コマンドで一度プログラムを止めておこう
+![s212](images/s212.png)
 
 <kbd>Ctrl</kbd>+<kbd>C</kbd>
 `echo "プログラム停止"`{{execute interrupt}}
+
+再度コマンドを実行します。
+
+`deno run --allow-net hello.ts`{{execute}}
+
+
+これで Try it now に「スタート」と入力すると「君の名前は？」と聞き返されるので、名前を入力します。
+
+![s213](images/s213.png)
+
+### 2-5. Dialogflow Messengerに対応する
+Dialogflow Messengerとは運営しているWebサイトに対してチャットボット機能を簡単に導入することができる機能です。
+よくあるQ&Aのチャットシステムと考えてもらえれば良いと思います。
+
+左側メニューの `Integrations` をクリックして表示される、 `Dialogflow Messenger` を有効化にします。
+
+![s214](images/s214.png)
+
+ポップアップが表示されるので、そこに書かれているコードをコピーしておきます。
+
+![s215](images/s215.png)
+
+コピーしたコードを `example/public/index.html` の </body>タグ直前ぐらいに貼り付けます。
+
+![s216](images/s216.png)
+
+プログラムを少し改変します。下記コードを `hello.ts` ファイルにコピペします。
+
+<pre class="file" data-target="clipboard">
+import { Application, Context } from "https://deno.land/x/abc@v1.0.0-rc10/mod.ts";
+const app = new Application();
+
+app.static('/', './public');
+
+// htmlファイルを読み込む
+app.get('/', async (ctx: Context) => {
+    await ctx.file('./public/index.html');
+});
+
+app.post('/', async (ctx: Context) => {
+    const {queryResult} = await (ctx.body());
+    const displayName = queryResult.intent.displayName;
+    let js = {};
+
+    if (displayName === 'MorningIntent') {
+        js = {
+            fulfillmentText: `😃おはようございます😃`
+        };
+    } else if (displayName === 'NameIntent') {
+        js = {
+            fulfillmentText: `あなたの名前は「${queryResult.parameters.name}」ですね！`
+        };
+    } else {
+        js = {
+            fulfillmentText: `Denoから「${queryResult.queryText}」`
+        };
+    }
+    await ctx.json(js);
+});
+
+// ポート開く
+app.start({port: 3000});
+</pre>
+
+![s217](images/s217.png)
+
+<kbd>Ctrl</kbd>+<kbd>C</kbd>
+`echo "プログラム停止"`{{execute interrupt}}
+
+再度コマンドを実行します。今度はhtmlファイルを読み取る必要があるので `--allow-read` の権限を付与して実行しています。
+
+`deno run --allow-net --allow-read hello.ts`{{execute}}
+
+下記URLにアクセスすると画面右下にDialogflowのロゴが表示されるので、クリックすると Try it now と同様に、入力した結果が返ってきます。
+
+https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
+
+![s218](images/s218.png)
