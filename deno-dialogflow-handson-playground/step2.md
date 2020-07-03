@@ -1,9 +1,9 @@
 ### 2-1. Agentを作成する
 
 [https://dialogflow.cloud.google.com/](https://dialogflow.cloud.google.com/) にアクセスしてください。
-［Sign up for free］ボタンをクリックします。お持ちのGoogleアカウントでログインしてください。
+［Sign-in with Google］ボタンをクリックします。お持ちのGoogleアカウントでログインしてください。
 
-![s100](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/dialoflow-linebot-playground/images/s100.png)
+![s200-1](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/deno-dialogflow-handson-playground/images/s200-1.png)
 
 初めてDialogflowをお使いになる方は利用許可してください。
 
