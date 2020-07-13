@@ -1,0 +1,40 @@
+{
+    "title": "Deno x Actions Builder ハンズオン",
+    "description": "Deno x Actions Builder ハンズオン",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1 - Denoに触れてみよう",
+          "text": "step1.md"
+        },
+        {
+          "title": "Step 2 - オウム返しアクションを作成しよう",
+          "text": "step2.md"
+        },
+        {
+          "title": "Step 3 - BMI測定アクションを作成しよう",
+          "text": "step3.md"
+        }
+      ],
+      "intro": {
+          "text": "intro.md",
+          "courseData": "background.sh",
+          "code": "foreground.sh",
+          "credits": ""
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "files": [],
+    "environment": {
+      "showide": true,
+      "ide": "ssh host01 '/opt/start-vscode.sh'",
+      "idePort": 23000,
+      "hideintro": true,
+      "uilayout": "terminal"  
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
