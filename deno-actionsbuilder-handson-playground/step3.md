@@ -70,14 +70,14 @@ WebhookのURLは下記URLを貼り付けてください。
 IDEタブをクリックしてVSCodeを表示してください。`example/hello.ts` ファイルを開いて、下記プログラムをコピペしてください。
 
 <pre class="file" data-target="clipboard">
-import { Application, Context } from "https://deno.land/x/abc@v1.0.0-rc10/mod.ts";
+import { Application, Context } from "https://deno.land/x/abc@v1/mod.ts";
 const app = new Application();
 
 app.post('/', async (ctx: Context) => {
     const { session } = await (ctx.body());
     const param = session.params;
     const bmiVal = (parseFloat(param.weight) / (parseFloat(param.height)/100 * parseFloat(param.height)/100)).toFixed(1);
-    
+
     let js = {
         "prompt": {
             "override": false,
