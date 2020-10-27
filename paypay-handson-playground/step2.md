@@ -46,4 +46,4 @@ PayPayのロゴをクリックして、表示されたQRコードをPayPayアプ
 
 （※実際にはお金は減りませんのでご安心ください）
 
-![s201](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/linepay-v3-handson-playground/images/s201.png)
+![s203](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-handson-playground/images/s203.png)
