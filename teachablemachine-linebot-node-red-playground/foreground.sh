@@ -1,5 +1,5 @@
 sudo npm install -g n
-sudo n latest
+sudo n 12.16.1
 
 sudo npm install -g --unsafe-perm node-red
 
