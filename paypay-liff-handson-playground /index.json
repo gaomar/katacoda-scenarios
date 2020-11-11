@@ -1,0 +1,46 @@
+{
+    "title": "PayPay x LIFF ハンズオン",
+    "description": "PayPay x LIFF ハンズオン",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1 - PayPayサンドボックス環境設定",
+          "text": "step1.md"
+        },
+        {
+          "title": "Step 2 - LIFF IDを作成しよう",
+          "text": "step2.md"
+        },
+        {
+          "title": "Step 3 - LINE Botと友だちになろう",
+          "text": "step3.md"
+        },
+        {
+          "title": "Step 4 - プログラムを実行する",
+          "text": "step4.md"
+        }
+      ],
+      "intro": {
+          "text": "intro.md",
+          "courseData": "background.sh",
+          "code": "foreground.sh",
+          "credits": ""
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "files": [],
+    "environment": {
+      "showide": true,
+      "ide": "ssh host01 '/opt/start-vscode.sh'",
+      "idePort": 23000,
+      "hideintro": true,
+      "showdashboard": true,
+      "terminals": [{"name": "Terminal 2", "target": "host01"}],
+      "uilayout": "terminal"
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
