@@ -19,8 +19,8 @@ https://developers.line.biz/ja/
 
 |項目|値|
 |:--|:--|
-|①チャネル名|PayPay-LIFF|
-|②チャネル説明|PayPay-LIFF|
+|①チャネル名|`PayPay-LIFF`{{copy}}|
+|②チャネル説明|`PayPay-LIFF`{{copy}}|
 |③アプリタイプ|チェックを2つ入れる|
 |④メールアドレス|ご自身のメールアドレスを入力|
 
@@ -38,7 +38,7 @@ https://developers.line.biz/ja/
 
 |項目|値|
 |:--|:--|
-|①LIFFアプリ名|PayPay-LIFF|
+|①LIFFアプリ名|`PayPay-LIFF`{{copy}}|
 |②サイズ|お好きなものを選択|
 
 ![s207](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-liff-handson-playground/images/s207.png)

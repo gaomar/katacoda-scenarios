@@ -11,8 +11,8 @@ LINE Developerのページから新規チャネル作成をクリックします
 
 |項目|値|
 |:--|:--|
-|①チャネル名|PayPay-Bot|
-|②チャネル説明|PayPay-Bot|
+|①チャネル名|`PayPay-Bot`{{copy}}|
+|②チャネル説明|`PayPay-Bot`{{copy}}|
 |③大業種|個人|
 |④小業種|個人（その他）|
 |⑤メールアドレス|あなたのメールアドレスを入力してください|
@@ -40,7 +40,7 @@ LIFFタイトルと日付を設定します。
 
 |項目|値|
 |:--|:--|
-|①タイトル|LIFFメニュー|
+|①タイトル|`LIFFメニュー`{{copy}}|
 |②表示期間|2020/01/01 00:00 〜 2029/12/31 00:00|
 
 ![s406](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-v2-handson-playground/images/s406.png)
