@@ -11,7 +11,7 @@ IDEタブをクリックしてVSCodeを起動します。
 |VUE_APP_HOST_NAME| `https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`{{copy}} |
 |VUE_APP_PAYPAY_FUNCTIONS_URL| `https://[[HOST_SUBDOMAIN]]-9000-[[KATACODA_HOST]].environments.katacoda.com/.netlify/functions/pay`{{copy}}|
 
-![s200](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-handson-playground/images/s200.png)
+![s400](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-liff-handson-playground/images/s400.png)
 
 ### 4-2. プログラムを実行する
 下記コマンドをそれぞれ実行してください。
@@ -39,8 +39,12 @@ npm run lambda
 ![s202](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-handson-playground/images/s202.png)
 
 ### 4-4. 動作確認
-決済開始をクリックします。PayPayのロゴをクリックすると自動的にPayPayアプリが起動します。
+リッチメニューの「決済開始」をクリックします。LIFFの認証画面が表示されるので、「許可する」をクリックします。
 
+![s401](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-liff-handson-playground/images/s401.png)
+
+
+決済開始をクリックします。PayPayのロゴをクリックすると自動的にPayPayアプリが起動します。支払うをタップして決済を行ってください。決済完了後、自動的にLINEアプリに戻ります。
 （※実際にはお金は減りませんのでご安心ください）
 
-![s203](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-handson-playground/images/s203.png)
+![s402](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-liff-handson-playground/images/s402.png)
