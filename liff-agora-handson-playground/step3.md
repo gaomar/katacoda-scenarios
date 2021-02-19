@@ -28,8 +28,7 @@ IDEタブ①をクリックしてVSCodeを起動します。
 cd example
 
 npm run lambda-serve
-```
-{{execute T2}}
+```{{execute T2}}
 
 下記が表示されればOKです。
 

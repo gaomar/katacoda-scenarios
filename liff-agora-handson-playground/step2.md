@@ -22,7 +22,6 @@ https://developers.line.biz/ja/
 |①チャネル名|`LIFF-AGORA`{{copy}}|
 |②チャネル説明|`LIFF-AGORA`{{copy}}|
 |③アプリタイプ|チェックを2つ入れる|
-|④メールアドレス|ご自身のメールアドレスを入力|
 
 ![s203](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-agora-handson-playground/images/s203.png)
 
