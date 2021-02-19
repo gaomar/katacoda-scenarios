@@ -24,7 +24,7 @@ https://developers.line.biz/ja/
 |③アプリタイプ|チェックを2つ入れる|
 |④メールアドレス|ご自身のメールアドレスを入力|
 
-![s203](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-liff-handson-playground/images/s203.png)
+![s203](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-agora-handson-playground/images/s203.png)
 
 チェックを入れてから［作成］ボタンをクリックします。
 ![s204](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-v2-handson-playground/images/s204.png)
@@ -32,7 +32,7 @@ https://developers.line.biz/ja/
 ### 2-2. LIFF IDを作成する
 `LIFF` タブをクリックして、［追加］ボタンをクリックします。
 
-![s206](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-liff-handson-playground/images/s206.png)
+![s206](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-agora-handson-playground/images/s206.png)
 
 アプリ名とサイズを設定します。
 
@@ -41,7 +41,7 @@ https://developers.line.biz/ja/
 |①LIFFアプリ名|`LIFF-AGORA`{{copy}}|
 |②サイズ|お好きなものを選択|
 
-![s207](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-liff-handson-playground/images/s207.png)
+![s207](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-agora-handson-playground/images/s207.png)
 
 続いて他の設定も行います。
 
@@ -59,4 +59,4 @@ https://developers.line.biz/ja/
 
 LIFFのIDが生成されるので値をメモしておきます。
 
-![s210](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/paypay-liff-handson-playground/images/s210.png)
+![s210](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-agora-handson-playground/images/s210.png)
