@@ -40,9 +40,9 @@ npm run lambda-serve
 
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
-スマホからもアクセスしてログインしてみましょう。下記URLからQRコードが表示されます。
+スマホからもアクセスしてログインしてみましょう。下記QRコードをスマホで読み取ってみてください。
 
-https://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+![qr](https://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/)
 
 
 ![s303](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/liff-agora-handson-playground/images/s303.png)
