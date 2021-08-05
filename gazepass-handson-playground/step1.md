@@ -7,7 +7,7 @@
 #### backendを起動
 
 ```
-cd example/backend
+cd backend
 
 npm run backend
 ```{{execute T1}}
@@ -19,3 +19,7 @@ cd example/frontend
 
 npm run frontend
 ```{{execute T2}}
+
+#### ブラウザ起動
+
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com
