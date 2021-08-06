@@ -6,6 +6,10 @@
         {
           "title": "Step 1 - API Keysを作成しよう",
           "text": "step1.md"
+        },
+        {
+          "title": "Step 2 - プログラムを実行しよう",
+          "text": "step2.md"
         }
       ],
       "intro": {
