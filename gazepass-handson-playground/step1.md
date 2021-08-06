@@ -5,37 +5,37 @@
 
 `Passwordless Sign In` をクリックしてください。
 
-![s100](images/s100.png)
+![s100](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/gazepass-handson-playground/images/s100.png)
 
 ご自身のメールアドレスで認証するか、Googleアカウントで認証するかお好きな方を選んでください。
 
-![s101](images/s101.png)
+![s101](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/gazepass-handson-playground/images/s101.png)
 
 認証が終わると、顔写真を登録します。これで生体認証が無いデバイスは顔認証でログインすることが可能となります。
 
-![s102](images/s102.png)
+![s102](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/gazepass-handson-playground/images/s102.png)
 
 デバイスを信頼するか確認されるので `Yes` をクリックします。
 
-![s103](images/s103.png)
+![s103](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/gazepass-handson-playground/images/s103.png)
 
 生体認証があるデバイスだと下記のように指紋認証を求められたり、iPhoneだとFaceIDが表示されます。
 
-![s104](images/s104.png)
+![s104](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/gazepass-handson-playground/images/s104.png)
 
 ### 1-2. API Keysを作成する
 ログインできたら、 `Developer Console` ボタンをクリックして、コンソール画面へ遷移します。
 
-![s105](images/s105.png)
+![s105](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/gazepass-handson-playground/images/s105.png)
 
 `Create API Key` をクリックして、API Keysを発行します。
 
-![s106](images/s106.png)
+![s106](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/gazepass-handson-playground/images/s106.png)
 
 API NameとDomainはそれぞれ任意の値を設定してください。
 
-![s107](images/s107.png)
+![s107](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/gazepass-handson-playground/images/s107.png)
 
 発行された `API Key` と `Secret Key` をメモしておきます。
 
-![s108](images/s108.png)
+![s108](https://raw.githubusercontent.com/gaomar/katacoda-scenarios/master/gazepass-handson-playground/images/s108.png)
